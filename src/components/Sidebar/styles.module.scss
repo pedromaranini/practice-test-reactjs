@@ -1,0 +1,49 @@
+.sidebar {
+    width: 44px;
+    height: 100vh;
+
+    background: linear-gradient(0deg, #0ea4c2 0%, #13cfb9 100%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+
+    @media (max-width: 1000px) {
+        height: 7vh;
+
+        // position: relative;
+    }
+
+    .logo {
+        margin-top: 1.5rem;
+
+        @media (max-width: 1000px) {
+            margin-top: 1rem;
+        }
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 6rem;
+
+        img {
+            margin-bottom: 1.875rem;
+        }
+
+        @media (max-width: 1000px) {
+            display: none;
+        }
+    }
+
+    .logout {
+        margin-top: 20rem;
+
+        @media (max-width: 1000px) {
+            display: none;
+        }
+    }
+}

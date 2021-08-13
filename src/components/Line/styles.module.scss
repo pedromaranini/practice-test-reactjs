@@ -1,0 +1,14 @@
+.line {
+    width: 90%;
+    height: 1px;
+
+    margin-left: 5.2rem;
+
+    background: var(--gray-200);
+
+    @media (max-width: 1000px) {
+        width: 85%;
+
+        margin-left: 1.6rem;
+    }
+}
