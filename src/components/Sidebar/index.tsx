@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import logo from '../../assets/logo-white.svg';
 import iconsImg from '../../assets/icons.svg';
 import usersImg from '../../assets/users.svg';
@@ -9,7 +11,9 @@ import styles from './styles.module.scss';
 export function Sidebar() {
 	return (
 		<section className={styles.sidebar}>
-			<img src={logo} alt="Logo" className={styles.logo} />
+			<Link to="/">
+				<img src={logo} alt="Logo" className={styles.logo} />
+			</Link>
 			<div className={styles.icons}>
 				<img src={iconsImg} alt="Icones" />
 				<img src={usersImg} alt="Users" />

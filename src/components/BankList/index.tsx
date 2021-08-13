@@ -21,7 +21,7 @@ export function BankList() {
 				return response.json();
 			})
 			.then((responseConvert) => {
-				console.log(responseConvert);
+				// console.log(responseConvert);
 				setBankList(responseConvert);
 			})
 	}, [])
