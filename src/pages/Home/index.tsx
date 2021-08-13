@@ -25,8 +25,8 @@ export function Home() {
 				<label>
 					Senha:
 					<input 
-						type="senha" 
-						name="senha" 
+						type="password" 
+						name="password" 
 						placeholder="Digite sua senha" 
 						required
 					/>
